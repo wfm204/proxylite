@@ -7,7 +7,7 @@ services:
     
     image: 
         url: docker.io/proxylite/proxyservice  # optional
-    region: frankfurt # optional (defaults to oregon  frankfurt ohio singapore)
+    region: ohio # optional (defaults to oregon  frankfurt ohio singapore)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
     envVars: 
